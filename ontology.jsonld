@@ -5,26 +5,6 @@
     "@value" : ""
   } ]
 }, {
-  "@id" : "_:genid2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
-  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
-    "@list" : [ {
-      "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#RioDeJaneiro"
-    }, {
-      "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#RiodeJaneiro"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid5",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
-  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
-    "@list" : [ {
-      "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#SaoPaulo"
-    }, {
-      "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Sao_Paulo"
-    } ]
-  } ]
-}, {
   "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/elements/1.1/rights" : [ {
@@ -110,7 +90,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "A entidade agente coletivo designa uma ampla variedade de grupos nomeados de pessoas que possuem um nome específico e têm o potencial de agir em conjunto como uma unidade. Além de famílias, instituições comerciais ou corporativas e outros órgãos legalmente registrados, a entidade agente coletivo inclui organizações e associações, grupos musicais, artísticos ou performáticos, governos e qualquer uma de suas subunidades. A associação de muitos tipos de agentes coletivos continuará a evoluir ao longo do tempo. Grupos ocasionais e grupos constituídos como reuniões, conferências, congressos, expedições, exposições, festivais, feiras etc., também se enquadram na definição de agente \ncoletivo, desde que sejam identificados por um nome específico e possam atuar como uma unidade. Pseudônimos conjuntos ou pseudônimos coletivos são nomens que se referem a instâncias da entidade agente coletivo como o agente por trás da identidade consiste em duas ou mais pessoas que possuem um nome específico e atuam como uma unidade, apesar de terem escolhido serem identificadas por um nome culturalmente associado a pessoas individuais. \nUma reunião de pessoas é considerada um agente coletivo somente quando demonstra características organizacionais que lhes permitem executar ações que refletem a agência em relação a instâncias de entidades de interesse bibliográfico (como aprovar um relatório, publicar os trabalhos de uma conferência). Essas ações coletivas podem ser executadas por representantes selecionados por um todo, e não por todos os membros individuais agindo juntos. Grupos de pessoas que não se qualificam como agentes (por exemplo, grupos nacionais, religiosos, culturais ou étnicos, como ítalo-canadenses ou encontros referidos por um termo descritivo geral em vez de um nome específico) não são exemplos da entidade agente coletivo. A distinção essencial entre um agente coletivo e uma reunião de pessoas que não é uma instância da entidade agente coletivo está no fato de que o nome utilizado pela instância da entidade \ndeve ser um nome específico e não apenas uma descrição genérica para a reunião. \nFamílias e órgãos corporativos são tipos específicos de agentes coletivos que podem ser relevantes em uma aplicação bibliográfica específica."
+    "@value" : "A entidade agente coletivo designa uma ampla variedade de grupos nomeados de pessoas que possuem um nome específico e têm o potencial de agir em conjunto como uma unidade. Além de famílias, instituições comerciais ou corporativas e outros órgãos legalmente registrados, a entidade agente coletivo inclui organizações e associações, grupos musicais, artísticos ou performáticos, governos e qualquer uma de suas subunidades. A associação de muitos tipos de agentes coletivos continuará a evoluir ao longo do tempo. Grupos ocasionais e grupos constituídos como reuniões, conferências, congressos, expedições, exposições, festivais, feiras etc., também se enquadram na definição de agente \ncoletivo, desde que sejam identificados por um nome específico e possam atuar como uma unidade. Pseudônimos conjuntos ou pseudônimos coletivos são nomens que se referem a instâncias da entidade agente coletivo como o agente por trás da identidade consiste em duas ou mais pessoas que possuem um nome específico e atuam como uma unidade, apesar de terem escolhido ser identificadas por um nome culturalmente associado a pessoas individuais. \nUma reunião de pessoas é considerada um agente coletivo somente quando demonstra características organizacionais que lhes permitem executar ações que refletem a agência em relação a instâncias de entidades de interesse bibliográfico (como aprovar um relatório, publicar os trabalhos de uma conferência). Essas ações coletivas podem ser executadas por representantes selecionados por um todo, e não por todos os membros individuais agindo juntos. Grupos de pessoas que não se qualificam como agentes (por exemplo, grupos nacionais, religiosos, culturais ou étnicos, como ítalo-canadenses ou encontros referidos por um termo descritivo geral em vez de um nome específico) não são exemplos da entidade agente coletivo. A distinção essencial entre um agente coletivo e uma reunião de pessoas que não é uma instância da entidade agente coletivo está no fato de que o nome utilizado pela instância da entidade  deve ser um nome específico e não apenas uma descrição genérica para a reunião. \nFamílias e órgãos corporativos são tipos específicos de agentes coletivos que podem ser relevantes em uma aplicação bibliográfica específica."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt",
@@ -184,14 +164,14 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
-    "@value" : "Area de Conhecimetno: Ciência da Informação"
+    "@value" : "Ciência da Informação"
   } ]
 }, {
   "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#AreaDeConhecimento",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Entidade que representa o conjunto de conhecimentos inter-relacionados, coletivamente construído, reunido segundo a natureza do objeto de investigação com finalidades de ensino, pesquisa e aplicações práticas.\n\n(LRM-E9) Nomen: Nomens podem ser categorizados em termos de: o tipo de coisa nomeada (nome pessoal, obra título etc.), a fonte na qual o nomen é atestado (título da lombada, título corrente), a função do nomen (identificador, ponto de acesso controlado, notação de classificação etc.).\n(Pressoo E32) Authority Document: Esta classe inclui enciclopédias, tesauros, listas de autoridade e outros documentos que definem terminologia ou sistemas conceituais para uso consistente.\n\nTécnicas de recuperação da informação, por exemplo, é área de conhecimento da Ciência da Informação e Medicina Veterinária é área de conhecimento de Especialidade médica."
+    "@value" : "Entidade que representa o conjunto de conhecimentos inter-relacionados, coletivamente construído, reunido segundo a natureza do objeto de investigação com finalidades de ensino, pesquisa e aplicações práticas.\n\n(LRM-E9) Nomen: Nomens podem ser categorizados em termos de: o tipo de coisa nomeada (nome pessoal, obra título etc.), a fonte na qual o nomen é atestado (título da lombada, título corrente), a função do nomen (identificador, ponto de acesso controlado, notação de classificação etc.).\n\nTécnicas de recuperação da informação, por exemplo, é área de conhecimento da Ciência da Informação e Medicina Veterinária é área de conhecimento de Especialidade médica."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
@@ -224,18 +204,18 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Um dos cabeçãlhos mais específicos da revista Ciência da Informação"
+    "@value" : "Um dos cabeçãlhos mais específicos da revista Ciência da Informação."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
-    "@value" : "Assunto controlado: Organização da informação"
+    "@value" : "Organização da informação"
   } ]
 }, {
   "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#AssuntoControlado",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Conjunto de termos predefinidos para uso em um determinado contexto para descrever o conteúdo de um documento ou recurso de informação, visando evitar a variação linguística e garantir a uniformidade na comunicação.\n\n(LRM-E9) Nomen: Nomens podem ser categorizados em termos de: o tipo de coisa nomeada (nome pessoal, obra título etc.), a fonte na qual o nomen é atestado (título da lombada, título corrente), a função do nomen (identificador, ponto de acesso controlado, notação de classificação etc.). \n(Pressoo E55) Type: Esta classe inclui conceitos denotados por termos de tesauros e vocabulários controlados utilizados para caraterizar e classificar instâncias de classes CRM.\n\nEnsino a distância é um termo que categoriza Aprendizado a distância no Tesauro Brasileiro de Ciência da Informação."
+    "@value" : "Conjunto de termos predefinidos para uso em um determinado contexto para descrever o conteúdo de um documento ou recurso de informação, visando evitar a variação linguística e garantir a uniformidade na comunicação.\n\n(LRM-E9) Nomen: Nomens podem ser categorizados em termos de: o tipo de coisa nomeada (nome pessoal, obra título etc.), a fonte na qual o nomen é atestado (título da lombada, título corrente), a função do nomen (identificador, ponto de acesso controlado, notação de classificação etc.). \n\n'Ensino a distância' é um termo que categoriza 'Aprendizado a distância' no Tesauro Brasileiro de Ciência da Informação."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
@@ -313,11 +293,11 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Uma organização que mantém uma ou mais coleções de recursos de informação físicos e/ou eletrônicos para acesso ou empréstimo.\nPor exemplo, Lydia de Queiroz Sambaquy é Biblioteca do Instituto Brasileiro em Ciência e Tecnologia.\n\n(LRM-E8) Agente Coletivo: Uma reunião ou organização de pessoas com um nome específico e capaz de atuar como uma unidade.\n(Presoo F11) Corporate Body: Esta classe inclui organizações e grupos de duas ou mais pessoas e/ou organizações que atuam como uma unidade."
+    "@value" : "Uma organização que mantém uma ou mais coleções de recursos de informação físicos e/ou eletrônicos para acesso ou empréstimo.\nPor exemplo, Lydia de Queiroz Sambaquy é Biblioteca do Instituto Brasileiro em Ciência e Tecnologia."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
-    "@value" : "Uma biblioteca. É um local físico ou repositório digital onde são guardados livros, documentos e demais publicações para o leituta e consulta de tais obras.\nUma coleção de recursos digitais, termos e conceitos."
+    "@value" : "Uma biblioteca. Um local físico ou repositório digital onde são guardados livros, documentos e demais publicações para o leitura e consulta de tais obras.\nUma coleção de recursos digitais, termos e conceitos."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -370,12 +350,12 @@
     "@value" : "https://biblioteca.ibict.br"
   } ],
   "http://pinakes.prd.ibict.br/ontology/pinakes#servicosBiblioteca" : [ {
-    "@language" : "pt-br",
-    "@value" : "COMUT"
-  }, {
     "@value" : "Bibliodata"
   }, {
     "@value" : "CCN"
+  }, {
+    "@language" : "pt-br",
+    "@value" : "COMUT"
   } ],
   "http://pinakes.prd.ibict.br/ontology/pinakes#sigla" : [ {
     "@language" : "pt-br",
@@ -459,7 +439,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
-    "@value" : "Brasíslia"
+    "@value" : "Brasília"
   } ]
 }, {
   "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Ceara",
@@ -511,7 +491,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Um conjunto de materiais bibliográficos, independentemente do formato, que são reunidos e mantidos por uma biblioteca ou outra instituição. As coleções podem ser organizadas de várias maneiras, incluindo por assunto, tipo de material, idioma, etc.\n\n(LRM-E5) Item: Um ou vários objetos que carregam sinais destinados a transmitir conteúdo intelectual ou artístico.\n(Pressoo Z9) Storage Unit: Esta classe compreende combinações únicas de instâncias de E18 Physical Thing que estão ligadas entre si, ou de outra forma fisicamente unidas, para fins de preservação, e são comunicadas aos usuários da biblioteca como unidades únicas e indivisíveis.\n\nExemplo: Relação de bibliotecas que possuem a publicação seriada Ciência da informação:\nEMBRAPA/CPAF-AC/BT  (AC)  1973 2 (1); 1974 3 (2); 1977-79 6-8; 1981-85; 1986 15 (2); 10-14; 1987-91 16-20; 1992-93 21-22; 1994 23 (1-2); 1995 24 ( 3); 1997 26 (1-3); 1998 27 (1-3); 1999 28 (1-3).\n CEPLAC/SID (BA)  1972-89 1-18; 1991 20 # 1992 21; 1993 22; 1994-95 23-24.\nUFC/BCCP (CE)  1975/87 4-7; 8(2); 9; 13; 14(2); 15(1); 16(1)."
+    "@value" : "Um conjunto de materiais bibliográficos, independentemente do formato, que são reunidos e mantidos por uma biblioteca ou outra instituição. As coleções podem ser organizadas de várias maneiras, incluindo por assunto, tipo de material, idioma, etc.\n\n(LRM-E5) Item: Um ou vários objetos que carregam sinais destinados a transmitir conteúdo intelectual ou artístico.\n\nExemplo para a  publicação seriada Ciência da Informação:\nIBICT/BT  1973 2 (1); 1974 3 (2); 1977-79 6-8; 1981-85; 1986 15 (2); 10-14; 1987-91 16-20; 1992-93 21-22; 1994 23 (1-2); 1995 24 ( 3); 1997 26 (1-3); 1998 27 (1-3); 1999 28 (1-3).\n CEPLAC/SID (BA)  1972-89 1-18; 1991 20 # 1992 21; 1993 22; 1994-95 23-24.\nUFC/BCCP (CE)  1975/87 4-7; 8(2); 9; 13; 14(2); 15(1); 16(1)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
@@ -546,7 +526,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "As informações do conteúdo da Coleções são suas trasncriçoes"
+    "@value" : "As informações do conteúdo da Coleções são suas transcrições."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -571,7 +551,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Entidade que reune um conjunto de dados que permite que uma biblioteca seja contatada. Essa informação geralmente inclui número de telefone, endereço de e-mail e outras formas de contato.\n\n(Presoo E51) Contact Point: Esta classe inclui identificadores utilizados, ou entendidos por serviços de comunicação para dirigir comunicações a uma instância do Ator E39 com informações de contato que Incluem e-mail, números de telefone, caixa postal, números de fax, URLs, etc. \n\nAtributo com informações de contato referente a Entidade E6-A1 do modelo LRM.\n\nPor exemplo, (61)32176145 é o telefone e biblioteca@ibict.br é o email da da Biblioteca do IBICT."
+    "@value" : "Entidade que reune um conjunto de dados que permite que uma biblioteca seja contatada. Essa informação geralmente inclui número de telefone, endereço de e-mail e outras formas de contato.\n\nAtributo com informações de contato referente a Entidade E6-A1 do modelo LRM.\n\nPor exemplo, (61)32176145 é o telefone e biblioteca@ibict.br é o email da da Biblioteca do IBICT."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
@@ -644,7 +624,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Representa o subcampo da Imprenta designado pela Editora.\n\n(PressooF11) Corporate Body: Esta classe inclui organizações e grupos de duas ou mais pessoas e/ou organizações que atuam como uma unidade. \n\n(LRM-E6) Agente: Uma entidade capaz de ações deliberadas, de cessão de direitos e de ser responsabilizada por suas ações. \n\nPor exemplo, o Instituto Brasileiro de Informação em Ciência e Tecnologia é a Editora da publicação seriada: Ciência da Informação."
+    "@value" : "Representa o subcampo da Imprenta designado pela Editora.\n\n(LRM-E6) Agente: Uma entidade capaz de ações deliberadas, de cessão de direitos e de ser responsabilizada por suas ações. \n\nPor exemplo, o Instituto Brasileiro de Informação em Ciência e Tecnologia é a Editora da publicação seriada: Ciência da Informação."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
@@ -662,31 +642,16 @@
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Agente"
   } ]
 }, {
-  "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#End_Eletronico_da_Biblioteca",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Biblioteca"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "pt-br",
-    "@value" : "Endereço eletònico da Biblioteca do Ibict"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
-    "@value" : "https://www.gov.br/ibict/pt-br/assuntos/informacao-cientifica/biblioteca-do-ibict"
-  } ]
-}, {
   "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Endereco",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "pt-br",
-    "@value" : "Define uma localidade (como rua, logradouro, bairro, setor, avenida) como parte de um endereço postal e ou coordenadas geográficas.\n\n(LRM-E10) Lugar: Uma extensão de espaço determinada.\n(Pressoo E53) Place: Esta classe compreende extensões no espaço, em particular na superfície da Terra, no sentido puro da física: independente dos fenômenos temporais e da matéria.\n\nPor exemplo, o Instituto Brasileiro de Informação em Ciencia e Tecnologia estã localizado no Setor de Autarquias Sul (SAUS), Quadra 05, Lote 06, Bloco H 5º andar  ou na coordenada geogrãfica {-15.8024936; -47.8824090} de Latitude e longitude respectivamente."
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
-    "@value" : "Conjunto de informaçoes que identificam a localização de um determinado lugar"
+    "@value" : "Conjunto de informações que identificam a localização de um determinado lugar"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "pt-br",
+    "@value" : "Define uma localidade (como rua, logradouro, bairro, setor, avenida) como parte de um endereço postal e ou coordenadas geográficas.\n\n(LRM-E10) Lugar: Uma extensão de espaço determinada.\n\nPor exemplo, o Instituto Brasileiro de Informação em Ciência e Tecnologia está localizado no Setor de Autarquias Sul (SAUS), Quadra 05, Lote 06, Bloco H 5º andar  ou na coordenada geográfica {-15.8024936; -47.8824090} de latitude e longitude respectivamente."
+  }, {
     "@language" : "pt-br",
     "@value" : "Endereço"
   } ],
@@ -741,7 +706,7 @@
     "@value" : "Expressão"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Res"
+    "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Colecao"
   } ]
 }, {
   "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Goias",
@@ -762,7 +727,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Representa o endereço eletrônico (home page) de uma Unidade, Instituição e ou Organização.\n\n(Pressoo Z11) URL: Esta classe inclui identificadores de servidores a partir dos quais os arquivos digitais podem ser obtidos online. \n\nPor exemplo, https://www.gov.br/ibict/pt-br/assuntos/informacao-cientifica/biblioteca-do-ibict é o endereço eletrônico da biblioteca do Ibict."
+    "@value" : "Representa o endereço eletrônico (homepage) de uma Obra, Publicação Seriada ou qualquer outro tipo documental.\n\n(Pressoo Z11) URL: Esta classe inclui identificadores de servidores a partir dos quais os arquivos digitais podem ser obtidos online."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
@@ -798,7 +763,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "O ISSN (International Standard Serial Number) é um código internacional que identifica de maneira única e definitiva títulos de publicações seriadas existentes no mundo todo. Composto por oito dígitos distribuídos em dois grupos de quatro, separados por um hífen. O último dígito é um dígito de controle que pode ser um “X”, e é calculado de acordo com um algoritmo matemático.\nO ISSN é usado em muitos sistemas de catalogação, assinaturas, intercâmbio internacional, entre outros e oferece um sistema eficiente e conveniente para a identificação de tais publicações.\n\n(LRM-E9) Nomen: Nomens podem ser categorizados em termos de: o tipo de coisa nomeada (nome pessoal, obra título etc.), a fonte na qual o nomen é atestado (título da lombada, título corrente), a função do nomen (identificador, ponto de acesso controlado, notação de classificação etc.).\n(Pressoo F13) Identifier: Esta classe compreende cadeias ou códigos atribuídos a instâncias da entidade E1 CRM, de modo a identificá-las de forma única e permanente no contexto de uma ou mais organizações.\n\nPor exemplo: o cõdigo 0100-1965 é o ISSN impresso da publicação seriada: Ciência da Informação."
+    "@value" : "O ISSN (International Standard Serial Number) é um código internacional que identifica de maneira única e definitiva títulos de publicações seriadas existentes no mundo todo. Composto por oito dígitos distribuídos em dois grupos de quatro, separados por um hífen. O último dígito é um dígito de controle que pode ser um “X”, e é calculado de acordo com um algoritmo matemático.\nO ISSN é usado em muitos sistemas de catalogação, assinaturas, intercâmbio internacional, entre outros e oferece um sistema eficiente e conveniente para a identificação de tais publicações.\n\n(LRM-E9) Nomen: Nomens podem ser categorizados em termos de: o tipo de coisa nomeada (nome pessoal, obra título etc.), a fonte na qual o nomen é atestado (título da lombada, título corrente), a função do nomen (identificador, ponto de acesso controlado, notação de classificação etc.).\n\nPor exemplo: o código 0100-1965 é o ISSN impresso da publicação seriada Ciência da Informação."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
@@ -914,7 +879,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Idioma predominante em uma publicação, Indica o idioma principal em que a publicação seriada foi publicada.\n\n(LRM-E3) Expressão: Uma combinação específica de sinais que transmitem conteúdo intelectual ou artístico. \n(Pressoo E56) Language: Esta classe é uma especialização de E55 Type e inclui linguagens naturais no sentido de conceitos.\nO idioma principal da publicação seriada Ciencia da Informação, por exemplo, é o português."
+    "@value" : "Idioma predominante em uma publicação, Indica o idioma principal em que a Obra foi publicada.\n\n(LRM-E3) Expressão: Uma combinação específica de sinais que transmitem conteúdo intelectual ou artístico. \n\nO idioma principal da publicação seriada Ciência da Informação, por exemplo, é o português."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
@@ -1002,7 +967,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Uma organização fundada para prosseguir ou promover determinados interesses ou atividades de pesquisa, educação ou políticas públicas. Um Instituto normalmente tem um foco de pesquisa, mas também pode cumprir funções de instrução ou divulgação.\n\n(LRM-E8) Agente Coletivo: Uma reunião ou organização de pessoas com um nome específico e capaz de atuar como uma unidade. \n(Pressoo F11) Corporate Body: Esta classe inclui organizações e grupos de duas ou mais pessoas e/ou organizações que actuam como uma unidade.\n\nO Instituto Brasileiro de Informação em Ciência e Tecnologia (IBICT) é um exemplo de uma insituição de pesquisa."
+    "@value" : "Uma organização fundada para apoiar ou promover determinados interesses ou atividades de pesquisa, educação ou políticas públicas. Um Instituto normalmente tem um foco de pesquisa, mas também pode cumprir funções de instrução ou divulgação.\n\nO Instituto Brasileiro de Informação em Ciência e Tecnologia (IBICT) é um exemplo de uma instituição de pesquisa."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
@@ -1052,7 +1017,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
-    "@value" : "Um ou vários objetos que carregam sinais destinados a transmitir conteúdo intelectual ou artístico."
+    "@value" : "(LRM-E5) Um ou vários objetos que carregam sinais destinados a transmitir conteúdo intelectual ou artístico."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -1066,7 +1031,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Local ou lugar vinculado a um edereço específico de uma Biblioteca ou Instituição; Subcampo da Imprenta designado pelo local de publicacão de uma publicação seriada.\n\n(LRM-E10) Lugar: Uma extensão de espaço determinada.\n(Pressoo E53) Place: Esta classe compreende extensões no espaço, em particular na superfície da Terra, no sentido puro da física: independente dos fenômenos temporais e da matéria.\n\nPor exemplo, Brasília é a Cidade onde localiza-se a Biblioteca Lydia de Queiroz Sambaquy."
+    "@value" : "Lugar vinculado a um edereço específico de uma Biblioteca ou Instituição; Subcampo da Imprenta designado pelo local de publicacão de uma publicação seriada.\n\n(LRM-E10) Lugar: Uma extensão de espaço determinada.\n\nPor exemplo, Brasília é a Cidade onde se localiza a Biblioteca Lydia de Queiroz Sambaquy."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
@@ -1166,7 +1131,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Suporte físico de uma coleção e ou issn registrado.\n(LRM-E4) Manifestação:  Um conjunto de todos os suportes que supostamente compartilham as mesmas características do conteúdo intelectual ou artístico e aspectos da forma física. Esse conjunto é definido pelo conteúdo geral e pelo plano de produção para seu suporte ou suportes.\n(Pressoo E18 Physical Thing): Esta classe inclui todos os objetos físicos persistentes com uma forma relativamente estável, criados pelo homem ou naturais.\n\nPor exemplo,  Publicação seriada impressa é um item físico."
+    "@value" : "Suporte físico de uma coleção e ou issn registrado.\n(LRM-E4) Manifestação:  Um conjunto de todos os suportes que supostamente compartilham as mesmas características do conteúdo intelectual ou artístico e aspectos da forma física. Esse conjunto é definido pelo conteúdo geral e pelo plano de produção para seu suporte ou suportes.\n\nPor exemplo,  Publicação seriada impressa é um item físico."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
@@ -1202,7 +1167,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
-    "@value" : "Estrutura, gestão e propósito da Instituição. Tipo de natureza Administrativa da Intituição"
+    "@value" : "Estrutura, gestão e propósito da Instituição. Tipo de natureza Administrativa da Instituição"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -1216,7 +1181,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Um nomen associa qualquer denominação (isto é, combinação de sinais) utilizada para se referir a uma instância de qualquer entidade encontrada no universo bibliográfico com essa entidade. Qualquer entidade mencionada no universo do \ndiscurso é nomeada por meio de, no mínimo, um nomen. \n \nUma combinação arbitrária de sinais ou símbolos não pode ser considerada uma denominação ou designação até que esteja associada a alguma coisa em algum contexto. Nesse sentido, a entidade nomen pode ser entendida como a reificação de um relacionamento entre uma instância de res e um string. O próprio string não constitui uma instância da entidade nomen, mas é modelada como o valor do atributo nomen string de uma instância da entidade nomen. Duas instâncias da entidade nomen podem ter valores perfeitamente idênticos para o \natributo nomen string e ainda permanecerem distintas, desde que se refiram a instâncias distintas da entidade res ou tenham valores distintos para um ou mais dos seus outros atributos (enquanto se refere à mesma instância da entidade res). \n \nUm nomen associa uma combinação de signos a uma instância \nde uma entidade com base em uma convenção cultural ou linguística: associando um nomen string com uma res, o nomen estabelece um significado que não é inerente ao próprio nomen string. Dependendo do contexto de uso, nomens com valores idênticos para o atributo nomen string podem envolver instâncias de diferentes entidades do mundo real, mesmo no mesmo idioma (polissemia e homonímia). Por outro lado, a mesma instância de uma entidade pode ser referenciada por qualquer quantidade de nomens (sinonímia). No ambiente \ncontrolado de um sistema de informações bibliográficas, entretanto, a sinonímia é evitada e os valores do atributo nomen string de nomens geralmente seriam diferenciados, de modo que cada nomen string seja associado a apenas uma instância da entidade res dentro do esquema específico. \nA identidade de um nomen é determinada pela combinação da res que ele engloba, a escolha e a ordem dos símbolos utilizados no atributo nomen string e os valores de todos os outros atributos. Variações nos símbolos utilizados (como transliteração em outra escrita) ou variação em suas ordens geralmente resultam em um nomen diferente, mas uma variação na representação visual dos símbolos presentes no valor do atributo nomen string (como fontes diferentes que podem ser utilizadas para apresentar seqüências alfanuméricas ou de caracteres) não resulta em um nomen string diferente. Nomens são atribuídos e associados formalmente a instâncias de entidades (por exemplo agências bibliográficas) ou informalmente por meio do uso comum. Quando nomens são atribuídos formalmente, a construção do valor do atributo nomen string pode seguir regras predeterminadas. \nUm valor de atributo nomen string pode consistir em componentes ou partes.Nesse caso, o nomen correspondente pode ser visto como derivado de dois ou mais nomens preexistentes, e esse processo de derivação pode ser regido por regras (por exemplo, a ordenação de pontos de acesso nometítulos para obras, a ordem de citação em um esquema de classificação facetada, ou a ordem das subdivisões em um sistema de cabeçalho de assunto). Por exemplo, um novo nomen para uma pessoa pode ser derivado por meio da combinação de um nomen pré-existente para aquela pessoa e um nomen para um intervalo de tempo da pessoa ao longo da vida; de forma similar um novo nomen para uma obra pode ser derivado por meio da combinação de um nomen para uma pessoa responsável pela autoria da obra e um nomen pré existente para aquela obra."
+    "@value" : "Um nomen associa qualquer denominação (isto é, combinação de sinais) utilizada para se referir a uma instância de qualquer entidade encontrada no universo bibliográfico com essa entidade. Qualquer entidade mencionada no universo do \ndiscurso é nomeada por meio de, no mínimo, um nomen. \n \nUma combinação arbitrária de sinais ou símbolos não pode ser considerada uma denominação ou designação até que esteja associada a alguma coisa em algum contexto. Nesse sentido, a entidade nomen pode ser entendida como a reificação de um relacionamento entre uma instância de res e um string. O próprio string não constitui uma instância da entidade nomen, mas é modelada como o valor do atributo nomen string de uma instância da entidade nomen. Duas instâncias da entidade nomen podem ter valores perfeitamente idênticos para o \natributo nomen string e ainda permanecerem distintas, desde que se refiram a instâncias distintas da entidade res ou tenham valores distintos para um ou mais dos seus outros atributos (enquanto se refere à mesma instância da entidade res). \n \nUm nomen associa uma combinação de signos a uma instância \nde uma entidade com base em uma convenção cultural ou linguística: associando um nomen string com uma res, o nomen estabelece um significado que não é inerente ao próprio nomen string. Dependendo do contexto de uso, nomens com valores idênticos para o atributo nomen string podem envolver instâncias de diferentes entidades do mundo real, mesmo no mesmo idioma (polissemia e homonímia). Por outro lado, a mesma instância de uma entidade pode ser referenciada por qualquer quantidade de nomens (sinonímia). No ambiente \ncontrolado de um sistema de informações bibliográficas, entretanto, a sinonímia é evitada e os valores do atributo nomen string de nomens geralmente seriam diferenciados, de modo que cada nomen string seja associado a apenas uma instância da entidade res dentro do esquema específico. \nA identidade de um nomen é determinada pela combinação da res que ele engloba, a escolha e a ordem dos símbolos utilizados no atributo nomen string e os valores de todos os outros atributos. Variações nos símbolos utilizados (como transliteração em outra escrita) ou variação em suas ordens geralmente resultam em um nomen diferente, mas uma variação na representação visual dos símbolos presentes no valor do atributo nomen string (como fontes diferentes que podem ser utilizadas para apresentar sequências alfanuméricas ou de caracteres) não resulta em um nomen string diferente. Nomens são atribuídos e associados formalmente a instâncias de entidades (por exemplo agências bibliográficas) ou informalmente por meio do uso comum. Quando nomens são atribuídos formalmente, a construção do valor do atributo nomen string pode seguir regras predeterminadas. \nUm valor de atributo nomen string pode consistir em componentes ou partes.Nesse caso, o nomen correspondente pode ser visto como derivado de dois ou mais nomens preexistentes, e esse processo de derivação pode ser regido por regras (por exemplo, a ordenação de pontos de acesso nometítulos para obras, a ordem de citação em um esquema de classificação facetada, ou a ordem das subdivisões em um sistema de cabeçalho de assunto). Por exemplo, um novo nomen para uma pessoa pode ser derivado por meio da combinação de um nomen pré-existente para aquela pessoa e um nomen para um intervalo de tempo da pessoa ao longo da vida; de forma similar um novo nomen para uma obra pode ser derivado por meio da combinação de um nomen para uma pessoa responsável pela autoria da obra e um nomen pré existente para aquela obra."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
@@ -1258,7 +1223,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
-    "@value" : "Comentário geral ou nota de suplemento ou nota de complexidade de uma obra"
+    "@value" : "Informação adicional registrada com o objetivo de complementar os dados principais de descrição de uma obra."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -1272,7 +1237,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Uma obra é uma entidade abstrata que permite o agrupamento \nde expressões que são consideradas equivalentes funcionais ou \nquase equivalentes. Uma obra é um objeto conceitual, nenhum \nobjeto material único pode ser identificado como a obra. \n \nA essência da obra é a conjunção de conceitos e ideias que \nformam o conteúdo compartilhado do que definimos como \nexpressões da mesma obra. Uma obra é percebida por meio da \nidentificação da semelhança de conteúdo entre várias \nexpressões. No entanto, a similaridade de conteúdo factual ou \ntemático por si só não é suficiente para agrupar expressões \ncomo realizações da mesma instância da obra. Por exemplo, \ndois livros didáticos, ambos apresentando uma introdução ao \ncálculo, ou duas pinturas a óleo da mesma vista (ainda que \npintadas pelo mesmo artista), seriam considerados obras \ndistintas se esforços intelectuais ou artísticos independentes \nestivessem envolvidos em sua criação. \n \nNo caso de obras agregadas e obras seriadas a essência da obra \né o conceito para planejamento da seleção, montagem e \nordenação das expressões de outras obras materializadas na \nmanifestação agregada resultante. \n \nUma obra adquire existência simultaneamente com a criação \nda sua primeira expressão, nenhuma obra pode existir sem \nhaver (ou ter havido em algum momento passado) pelo menos \numa expressão da obra. \n \nUma obra pode ser reconhecida retrospectivamente a partir da \nanálise de realizações individuais ou expressões da obra. A \nobra consiste na criação intelectual ou artística que está por trás \nde todas as expressões da obra. Como resultado, o conteúdo \nidentificado com uma instância da obra pode evoluir na medida \nem que novas expressões dela são criadas. \n \n As convenções bibliográficas e culturais desempenham um \npapel crucial na determinação dos limites exatos entre \ninstâncias semelhantes de obras. As necessidades do usuário \nsão a base para determinar se as instâncias da expressão são \nconsideradas como pertencendo à mesma instância da obra. \nQuando a maioria dos usuários, para fins mais gerais, \nconsideram as instâncias da expressão como equivalentes \nintelectualmente, então essas expressões são consideradas \nexpressões da mesma obra. \n \nGeralmente, quando um grau significativo de esforço \nintelectual ou artístico independente está envolvido na \nprodução de uma expressão, o resultado é visto como uma nova \nobra que possui uma relação de derivação com a obra de \norigem. Assim, paráfrases, reescritas, adaptações para crianças, \nparódias, variações musicais sobre um tema e transcrições \nlivres de uma composição musical são geralmente consideradas \npara representar novas obras. Da mesma forma, as adaptações \nde uma obra de uma forma literária ou artística para outra (por \nexemplo, dramatizações, adaptações de um meio das artes \ngráficas para outra etc.) são consideradas novas obras. \nResumos, compilações e sinopses também são considerados \npara representar novas obras."
+    "@value" : "Uma obra é uma entidade abstrata que permite o agrupamento \nde expressões que são consideradas equivalentes funcionais ou \nquase equivalentes. Uma obra é um objeto conceitual, nenhum \nobjeto material único pode ser identificado como a obra. \n \nA essência da obra é a conjunção de conceitos e ideias que \nformam o conteúdo compartilhado do que definimos como \nexpressões da mesma obra. Uma obra é percebida por meio da \nidentificação da semelhança de conteúdo entre várias \nexpressões. No entanto, a similaridade de conteúdo factual ou \ntemático por si só não é suficiente para agrupar expressões \ncomo realizações da mesma instância da obra. Por exemplo, \ndois livros didáticos, ambos apresentando uma introdução ao \ncálculo, ou duas pinturas a óleo da mesma vista (ainda que \npintadas pelo mesmo artista), seriam considerados obras \ndistintas se esforços intelectuais ou artísticos independentes \nestivessem envolvidos em sua criação. \n \nNo caso de obras agregadas e obras seriadas a essência da obra \né o conceito para planejamento da seleção, montagem e \nordenação das expressões de outras obras materializadas na \nmanifestação agregada resultante. \n \nUma obra adquire existência simultaneamente com a criação \nda sua primeira expressão, nenhuma obra pode existir sem \nhaver (ou ter havido em algum momento passado) pelo menos \numa expressão da obra. \n \nUma obra pode ser reconhecida retrospectivamente a partir da \nanálise de realizações individuais ou expressões da obra. A \nobra consiste na criação intelectual ou artística que está por trás \nde todas as expressões da obra. Como resultado, o conteúdo \nidentificado com uma instância da obra pode evoluir na medida \nem que novas expressões dela são criadas."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
@@ -1540,7 +1505,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Uma entidade que define um terriório onde a publicação seriada foi publicada.\n\n(LRM-E10) Lugar: Uma extensão de espaço determinada. \n(Pressoo E53) Place: Esta classe compreende extensões no espaço, em particular na superfície da Terra, no sentido puro da física: independente dos fenômenos temporais e da matéria. \n\nPor exemplo, Brasil é país ou território geográfico onde uma Publicação seriada foi publicada."
+    "@value" : "Uma entidade que define um território onde a publicação seriada foi publicada.\n\n(LRM-E10) Lugar: Uma extensão de espaço determinada. \n\nPor exemplo, O Brasil é país ou território geográfico onde uma Publicação seriada foi publicada."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
@@ -1611,14 +1576,14 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
-    "@value" : "Pernambuvo"
+    "@value" : "Pernambuco"
   } ]
 }, {
   "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Pessoa",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "A entidade pessoa é restrita a pessoas reais que vivem ou presume-se que tenham vivido. \n \nNão é necessária uma prova estrita da existência de uma pessoa, desde que haja uma aceitação geral de sua provável historicidade. No entanto, figuras geralmente consideradas fictícias (por exemplo, Caco o Sapo), literárias (por exemplo, Miss Jane Marple) ou puramente lendárias (por exemplo, o mago Merlin) não são instâncias da entidade pessoa."
+    "@value" : "A entidade pessoa é restrita a pessoas reais que vivem ou presume-se que tenham vivido. \n \nNão é necessária uma prova estrita da existência de uma pessoa, desde que haja uma aceitação geral de sua provável historicidade. No entanto, figuras geralmente consideradas fictícias (por exemplo, Caco, o Sapo), literárias (por exemplo, Miss Jane Marple) ou puramente lendárias (por exemplo, o mago Merlin) não são instâncias da entidade pessoa."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt",
@@ -1660,11 +1625,11 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Entidade que contém um conjunto de informações da Publicação seriada, normalmente contendo nome da editora, cidade e data de publicação.\n(Pressoo F30) Publication Event: Esta classe inclui as atividades de publicação, tais como, data, local e editora.\n\nPor exemplo, a editora \"A hora veterinária\", a cidade Porto Alegre localizada na Unidade Federativa Rio Grande do Sul (RS) que representa um local de publicação e o ano de publicação 2014, são informações da imprenta de uma publicação."
+    "@value" : "Entidade que contém a data de publicação de uma obra e que se relaciona com as entidades Editora e Localidade para representarem as informações de imprenta, especialmente das publicações seriadsa, \n\nPor exemplo, a revista Ciência da Informação foi publicada em 1972 em Brasília pela Editora Ibict. Essas são as informações de imprenta da revista."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
-    "@value" : "Informação relacionada a publicação de uma obra. Imprenta da publicação, principalmente referente à data de publicação de uma obra"
+    "@value" : "Entidade relacionada à  informação de imprenta referente à data de publicação."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -1682,7 +1647,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Publicação relacionada à uma Publicação Seriada. Suplemento, títulos anteriores, títulos em outros idiomas, ...\n\n(LRM-E2) Obra: O conteúdo intelectual ou artístico de uma criação específica.\n\nPor exemplo: Bibliografia Brasileira de Ciência da Informação é uma continuação da publicação Bibliografia Brasileira de Documentação. \nGranja Avícola; A Granja do Ano; AG Leilões; Revista AG; Guia AG Leilões do Criador são suplementos  relacionados à publicação: A Granja."
+    "@value" : "Publicação relacionada à uma obra. Suplemento, títulos anteriores, títulos em outros idiomas, ...\n\n(LRM-E2) Obra: O conteúdo intelectual ou artístico de uma criação específica.\nExemplos: Bibliografia Brasileira de Ciência da Informação é uma continuação da publicação Bibliografia Brasileira de Documentação. \nGranja Avícola; A Granja do Ano; AG Leilões; Revista AG; Guia AG Leilões do Criador são suplementos  relacionados à publicação: A Granja."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
@@ -1704,7 +1669,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Publicação que é emitida em partes sucessivas, com a intenção de continuar indefinidamente. Isso inclui jornais, revistas, anuários e outros veículos com circulação regular periódica. Publicações em qualquer suporte, emitidas em partes sucessivas com designações numéricas ou cronológicas e destinadas a ser continuadas indefinidamente.\n\n(LRM-E-2) Obra: O conteúdo intelectual ou artístico de uma criação específica. \n(Pressoo F18) Serial Work: Esta classe inclui obras que são, ou foram, planejadas para resultar em sequências de Expressões ou Manifestações com características comuns.\n\nExemplo: Ciência da Informação é publicação seriada quadrimestral"
+    "@value" : "Publicações em qualquer suporte, emitidas em partes sucessivas com designações numéricas ou cronológicas e destinadas a ser continuadas indefinidamente.\n\n(LRM-E-2) Obra: O conteúdo intelectual ou artístico de uma criação específica. \n(PRESSoo F18)  Serial Work: Esta classe inclui obras que são, ou foram, planejadas para resultar em sequências de Expressões ou Manifestações com características comuns.\n\nExemplo: Ciência da Informação é publicação seriada quadrimestral"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
@@ -1740,7 +1705,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Porção de território determinada por certas características comuns ou circunstâncias especiais.\n\n(LRM-E10) Lugar: Uma extensão de espaço determinada.\n(Pressoo E53) Place: Esta classe compreende extensões no espaço, em particular na superfície da Terra, no sentido puro da física: independente dos fenômenos temporais e da matéria. \n\nPor exemplo, Centro Oeste é uma região ou divisão regional onde localiza-se a Biblioteca Lydia de Queiroz Sambaquy."
+    "@value" : "Porção de território determinada por certas características comuns ou circunstâncias especiais.\n\n(LRM-E10) Lugar: Uma extensão de espaço determinada.\n\nPor exemplo, Centro Oeste é uma região ou divisão regional onde localiza-se a Biblioteca Lydia de Queiroz Sambaquy."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
@@ -1762,7 +1727,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Res (“coisa” em latim) é a entidade superior do modelo LRM. Res inclui coisas e conceitos materiais ou físicos. Tudo o que é considerado relevante para o universo bibliográfico, que é o universo do discurso neste caso, está incluído. Res é uma superclasse de todas as outras entidades explicitamente definidas, bem como de quaisquer outras entidades não especificamente identificadas. \n\n(Pressoo E70) Thing: Esta classe geral inclui instâncias discretas e identificáveis de E77 Persistent Item. Podem ser produtos intelectuais ou objectos físicos. Podem possuir forma física, uma codificação eletrônica, ou podem ser um conceito ou estrutura lógica."
+    "@value" : "Res (“coisa” em latim) é a entidade superior do modelo LRM. Res inclui coisas e conceitos materiais ou físicos. Tudo o que é considerado relevante para o universo bibliográfico, que é o universo do discurso neste caso, está incluído. Res é uma superclasse de todas as outras entidades explicitamente definidas, bem como de quaisquer outras entidades não especificamente identificadas."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
@@ -1787,7 +1752,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
-    "@value" : "Esta propriedade descreve a entidade (pessoa ou organização) responsãvel pela  biblioteca."
+    "@value" : "Esta propriedade indica a entidade (pessoa ou organização) responsável pela  biblioteca."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -1808,6 +1773,9 @@
   }, {
     "@language" : "pt-br",
     "@value" : "Rio de janeiro"
+  } ],
+  "http://www.w3.org/2002/07/owl#differentFrom" : [ {
+    "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#RiodeJaneiro"
   } ]
 }, {
   "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#RioGrandeN",
@@ -1863,7 +1831,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
-    "@value" : "Rôndonia"
+    "@value" : "Rondônia"
   } ]
 }, {
   "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Roraima",
@@ -1905,6 +1873,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
     "@value" : "São Paulo"
+  } ],
+  "http://www.w3.org/2002/07/owl#differentFrom" : [ {
+    "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Sao_Paulo"
   } ]
 }, {
   "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Sao_Paulo",
@@ -1938,15 +1909,15 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Enquanto uma obra pode adquirir novos membros durante o tempo em que evolui, as Expressões e Manifestações são identificadas com um determinado estado alcançado em um determinado momento. Portanto, em geral, não há uma única Expressão ou Manifestação que represente uma obra serial completa, a menos que a obra serial tenha terminado. As Obras em Série podem ou não ter um plano para uma expressão geral. A reimpressão retrospectiva de todas as edições de uma Obra em Série de uma só vez, na forma de uma monografia, é considerada outro membro de uma Obra Complexa, que contém a Obra em Série e a Obra Individual realizada na monografia. Isso não torna a monografia parte do Trabalho em Série.\n\nPor exemplo, o periódico intitulado 'The UNESCO Courier', ISSN '0041-5278'"
+    "@value" : "Enquanto uma obra pode adquirir novos membros durante o tempo em que evolui, as Expressões e Manifestações são identificadas com um determinado estado alcançado em um determinado momento. Portanto, em geral, não há uma única Expressão ou Manifestação que represente uma obra serial completa, a menos que a obra serial tenha terminado. As Obras em Série podem ou não ter um plano para uma expressão geral."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
-    "@value" : "Esta classe inclui obras que são, ou foram, planejadas para resultar em sequências de Expressões ou Manifestações com características comuns."
+    "@value" : "(PRESSoo F18) Esta classe inclui obras que são, ou foram, planejadas para resultar em sequências de Expressões ou Manifestações com características comuns."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
-    "@value" : "Obra em Série"
+    "@value" : "Obra Seriada"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Obra"
@@ -1976,7 +1947,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Listagens das grandes áreas e sub-áreas do conhecimento. A tabela de áreas do conhecimento da CAPES é uma forma de organizar as áreas de avaliação da CAPES em quatro níveis, do mais geral ao mais específico. Já a do CNPq organiza os saberes desenvolvidos pela ciência e tecnologia e cada uma de suas áreas abrange vários campos de estudo ou especializações. Por exemplo, a área de “Ciências Exatas e da Terra” inclui campos como Matemática, Probabilidade e Estatística, Ciência da Computação, Física, Química, entre outros. Essa classificação ajuda a entender o que cada uma dessas áreas estuda.\n\n (LRM-E9) Nomen: Nomens podem ser categorizados em termos de: o tipo de coisa nomeada (nome pessoal, obra título etc.), a fonte na qual o nomen é atestado (título da lombada, título corrente), a função do nomen (identificador, ponto de acesso controlado, notação de classificação etc.).\n(Pressoo E32) Authority Document: Esta classe inclui enciclopédias, tesauros, listas de autoridade e outros documentos que definem terminologia ou sistemas conceituais para uso consistente.\n\nExemplos: Classificação das Áreas do Conhecimento da Tabela de áreas do conhecimento /avaliação CAPES - 1º Nível: Grande área; 2º Nível: Área do conhecimento; 3º Nível: Subárea; 4º Nível: Especialidade.                                          Organização da Tabela de áreas do conhecimento CNPq: Grande área; Área; Sub-área; Especialidade."
+    "@value" : "Listagens das grandes áreas e sub-áreas do conhecimento. A tabela de áreas do conhecimento da CAPES é uma forma de organizar as áreas de avaliação da CAPES em quatro níveis, do mais geral ao mais específico. Já a do CNPq organiza os saberes desenvolvidos pela ciência e tecnologia e cada uma de suas áreas abrange vários campos de estudo ou especializações. Por exemplo, a área de “Ciências Exatas e da Terra” inclui campos como Matemática, Probabilidade e Estatística, Ciência da Computação, Física, Química, entre outros. Essa classificação ajuda a entender o que cada uma dessas áreas estuda.\n\n (LRM-E9) Nomen: Nomens podem ser categorizados em termos de: o tipo de coisa nomeada (nome pessoal, obra título etc.), a fonte na qual o nomen é atestado (título da lombada, título corrente), a função do nomen (identificador, ponto de acesso controlado, notação de classificação etc.).\n\nExemplos: Classificação das Áreas do Conhecimento da Tabela de áreas do conhecimento /avaliação CAPES - 1º Nível: Grande área; 2º Nível: Área do conhecimento; 3º Nível: Subárea; 4º Nível: Especialidade.                                       Organização da Tabela de áreas do conhecimento CNPq: Grande área; Área; Sub-área; Especialidade."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
@@ -1984,7 +1955,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
-    "@value" : "Tebela de Área de Conhecimento"
+    "@value" : "Tabela de Área de Conhecimento"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
@@ -1998,7 +1969,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Diferente do “Assunto Controlado”, que usa um vocabulário predefinido, o “Termo livre” permite maior flexibilidade e pode incluir jargões, abreviações, neologismos e outras expressões que podem não estar presentes em um vocabulário controlado.\n\n(Pressoo E55) Type: Esta classe inclui conceitos denotados por termos de tesauros e vocabulários controlados utilizados para caraterizar e classificar instâncias de classes CRM.\n\nInteligência artificial, por exemplo, é um termo livre."
+    "@value" : "Diferente do “Assunto Controlado”, que usa um vocabulário predefinido, o “Termo livre” permite maior flexibilidade e pode incluir jargões, abreviações, neologismos e outras expressões que podem não estar presentes em um vocabulário controlado.\n\nInteligência artificial, por exemplo, é um termo livre."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
@@ -2038,11 +2009,11 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Título complementar, abreviado ou subtítulo que fornece informações adicionais ou complementam o título principal.\n\n(LRM-E9 ) Nomen: Nomens podem ser categorizados em termos de: o tipo de coisa nomeada (nome pessoal, obra título etc.), a fonte na qual o nomen é atestado (título da lombada, título corrente), a função do nomen (identificador, ponto de acesso controlado, notação de classificação etc.). \n(Pressoo E35)Title: Os títulos podem ser atribuídos pelo próprio criador da obra ou por um grupo social. Esta classe também inclui as traduções de títulos que são usadas como substitutos dos títulos originais em diferentes contextos sociais.\n\nPor exemplo, Ciênc. Inf. é título abreviado de: Ciência da Informação."
+    "@value" : "Título complementar, abreviado ou subtítulo que fornece informações adicionais ou complementam o título principal.\n\n(LRM-E9 ) Nomen: Nomens podem ser categorizados em termos de: o tipo de coisa nomeada (nome pessoal, obra título etc.), a fonte na qual o nomen é atestado (título da lombada, título corrente), a função do nomen (identificador, ponto de acesso controlado, notação de classificação etc.). \n\nPor exemplo, Ciênc. Inf. é título abreviado de: Ciência da Informação."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
-    "@value" : "Título complementar, abreviado ou subtítulo."
+    "@value" : "Elemento textual, como um subtítulo ou forma abreviada, que complementa o título principal ao fornecer informações adicionais sobre o conteúdo, finalidade ou escopo do recurso."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -2074,7 +2045,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Uma unidade ou departamento dentro de uma Instituição, geralmente dedicada à funções específicas.\n(LRM-E8) Agente Coletivo: Uma reunião ou organização de pessoas com um nome específico e capaz de atuar como uma unidade.\n(Pressoo F11) Corporate Body: Esta classe inclui organizações e grupos de duas ou mais pessoas e/ou organizações que actuam como uma unidade. \n\nPor exemplo, o Instituto Brasileiro em Ciência e Tecnologia (Ibict) é uma Unidade de Pesquisa do Ministério de Ciência, Tecnologia e Inovação e a Coordenação de Serviços Bibliográficos é uma unidade do Ibict que realiza a coordenação e gestão associada a Biblioteca Lydia Queiroz Sambaquy."
+    "@value" : "Uma unidade ou departamento dentro de uma Instituição, geralmente dedicada a funções específicas.\n\nPor exemplo, o Instituto Brasileiro em Ciência e Tecnologia (Ibict) é uma Unidade de Pesquisa do Ministério de Ciência, Tecnologia e Inovação e a Coordenação de Serviços Bibliográficos é uma unidade do Ibict que realiza a coordenação e gestão associada a Biblioteca Lydia Queiroz Sambaquy."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
@@ -2092,7 +2063,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Entidade subnacional que junto a outras unidades compõem uma federação, um país federado.\n\n(LRM-E10) Lugar: Uma extensão de espaço determinada. \n(Pressoo E53) Place: Esta classe compreende extensões no espaço, em particular na superfície da Terra, no sentido puro da física: independente dos fenômenos temporais e da matéria. \n\nPor exemplo, o Distrito Federal é a Unidade Federativa onde localiza-se a Biblioteca Lydia de Queiroz Sambaquy"
+    "@value" : "Entidade subnacional que junto a outras unidades compõem uma federação, um país federado.\n\n(LRM-E10) Lugar: Uma extensão de espaço determinada.  \n\nPor exemplo, o Distrito Federal é a Unidade Federativa onde se localiza e a Biblioteca Lydia de Queiroz Sambaquy"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
@@ -2172,14 +2143,14 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Data final ou ano final da Obra"
+    "@value" : "Data final ou ano final da Obra."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Obra"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
-    "@value" : "data em formato de ano que se refere ao ano final da imprenta de uma obra"
+    "@value" : "Data em formato de ano que se refere ao ano final da imprenta de uma obra."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -2196,7 +2167,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Data inicial ou ano incial da obra"
+    "@value" : "Data inicial ou ano incial da obra."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Obra"
@@ -2261,14 +2232,14 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "O CEP (Código de Endereçamento Postal) é um sistema de códigos que visa racionalizar o processo de encaminhamento e entrega de correspondências através da divisão do país em regiões postais. O CEP é composto por oito dígitos.\n\nCada algarismo do CEP possui um significado. Da esquerda para a direita, os números indicam a região, sub-região, setor, sub-setor, divisor de sub-setor e identificadores de distribuição (três últimos algarismos). O Brasil é dividido em dez regiões postais, que compõem o primeiro dos números do CEP:"
+    "@value" : "O CEP (Código de Endereçamento Postal) é um sistema de códigos que visa racionalizar o processo de encaminhamento e entrega de correspondências através da divisão do país em regiões postais. O CEP é composto por oito dígitos.\n\nCada algarismo do CEP possui um significado. Da esquerda para a direita, os números indicam a região, sub-região, setor, sub-setor, divisor de sub-setor e identificadores de distribuição (três últimos algarismos). O Brasil é dividido em dez regiões postais, que compõem o primeiro dos números do CEP."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Endereco"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
-    "@value" : "Propriedade de dado que representa o Código de Endereçamento Postal (CEP), usado para facilitar a localização, organização e a entrega de correspondências e encomendas em um território como o Brasil"
+    "@value" : "Propriedade de dado que representa o Código de Endereçamento Postal (CEP), usado para facilitar a localização, organização e a entrega de correspondências e encomendas em um território como o Brasil."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -2282,7 +2253,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Um documento de identificação de uma empresa legalizada pelo governo"
+    "@value" : "Um documento de identificação de uma empresa legalizada pelo governo."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Instituicao"
@@ -2387,7 +2358,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "As duas obras podem agregar valor uma à outra (nesse caso, o relacionamento é simétrico); em outros casos, uma das obras é considerada secundária.\n\nPor exemplo, o periódico Applied economics quarterly. Supplement (ISSN 1612-2127’ é acompanhamento de / é complemento de periódico Applied economics quarterly (ISSN 1611-6607)."
+    "@value" : "As duas obras podem agregar valor uma à outra (nesse caso, o relacionamento é simétrico); em outros casos, uma das obras é considerada secundária.\n\nPor exemplo, o periódico Applied Economics Quarterly. Supplement (ISSN 1612-2127’ é acompanhamento de / é complemento de periódico Applied Economics Quarterly  (ISSN 1611-6607)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Obra"
@@ -2432,18 +2403,18 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Tipologia funcional"
+    "@value" : "Conteúdo ou tipologia funcional."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#PublicacaoSeriada"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
-    "@value" : "Propriedade de dado que representa o conteúdo de uma obra rou seja sua tipologia funcional."
+    "@value" : "Propriedade de dado que representa o conteúdo de uma obra, isto é, sua tipologia funcional."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
-    "@value" : "conteúdo (tipologia funcional)"
+    "@value" : "tipologia funcional"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -2453,7 +2424,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "conteudo que contem as transcrições das coleções, utilizadas para catalogação e referência."
+    "@value" : "Conteúdo que contem as transcrições das coleções, utilizadas para catalogação e referência."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Colecao"
@@ -2470,7 +2441,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Indica a relação onde um Agente criou uma expressão, como uma obra de arte, um texto, uma música, etc."
+    "@value" : "Indica a relaçãoem que um Agente criou uma expressão, como uma obra de arte, um texto, uma música, etc."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Agente"
@@ -2494,14 +2465,14 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Indica a relação onde uma entidade criou uma manifestação, como uma edição física de um livro, uma exibição de arte, etc."
+    "@value" : "Indica a relação em que uma entidade criou uma manifestação, como uma edição física de um livro, uma exibição de arte, etc."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Agente"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
-    "@value" : "Esta propriedade conecta um Agente  com a manifestação que foi criada por ele."
+    "@value" : "Esta propriedade conecta um Agente com a manifestação que foi criada por ele."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -2518,7 +2489,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Indica a relação onde um Agente criou uma obra, como um livro, uma pintura, uma composição musical, etc."
+    "@value" : "Indica a relação em que um Agente criou uma obra, como um livro, uma pintura, uma composição musical, etc."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Agente"
@@ -2542,7 +2513,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "data que biblioteca foi atualizada pela ultima vez"
+    "@value" : "Data da última atualização da biblioteca."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Biblioteca"
@@ -2559,7 +2530,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "data de registro da biblioteca no sistema pela primeira vez."
+    "@value" : "Data de registro da biblioteca no sistema pela primeira vez."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Biblioteca"
@@ -2576,7 +2547,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Data em que o registro foi atualizado pela última vez"
+    "@value" : "Data em que o registro foi atualizado pela última vez."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Obra"
@@ -2587,7 +2558,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
-    "@value" : "data de atualização do registro."
+    "@value" : "data de atualização do registro"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
@@ -2618,7 +2589,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "atributo que se refere a data final da imprenta de uma publicação conforme o padrão Marc 21."
+    "@value" : "Atributo que se refere a data final da imprenta de uma publicação."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#PublicacaoImprenta"
@@ -2635,14 +2606,14 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Atributo referente ao ano incial de uma ppublicação periódica."
+    "@value" : "Atributo referente ao ano incial de uma publicação periódica."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#PublicacaoImprenta"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
-    "@value" : "data incial da Imprenta"
+    "@value" : "data inicial da Imprenta"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -2652,7 +2623,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Nome da Biblioteca"
+    "@value" : "Nome da Biblioteca."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Biblioteca"
@@ -2684,7 +2655,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
-    "@value" : "descrição do ISSN."
+    "@value" : "descrição do ISSN"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -2715,7 +2686,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Indica a relação inversa onde um Agente distribui manifestação"
+    "@value" : "Indica a relação inversa em que um agente distribui manifestação."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Agente"
@@ -2739,7 +2710,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "caracteristica que faz parte da designação numérica de uma obra"
+    "@value" : "Característica que faz parte da designação numérica de uma obra."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Obra"
@@ -2794,14 +2765,14 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Sistema de transmissão de mensagens escritas através da internet ou de outras redes informáticas; eletronic mail ou correio eletrônico"
+    "@value" : "Sistema de transmissão de mensagens escritas através da internet ou de outras redes informáticas."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Contato"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
-    "@value" : "Propriedade de dado que representa o sistema de transmissão de mensagens escritas através da internet ou de outras redes informáticas, comumente conhecido como correio eletrônico ou eletronic mail."
+    "@value" : "Propriedade de dado que representa o sistema de transmissão de mensagens escritas através da internet ou de outras redes informáticas, comumente conhecido como correio eletrônico."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -2815,18 +2786,18 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Localização eletrônica ou endereço eletrônico de uma home page"
+    "@value" : "Localização eletrônica ou endereço eletrônico de uma homepage."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Homepage"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
-    "@value" : "Propriedade de dado que representa a localização eletrônica ou URL de uma home page, utilizada para identificar e acessar eletronicamente páginas da web."
+    "@value" : "Propriedade de dado que representa a localização eletrônica ou URL de uma homepage, utilizada para identificar e acessar eletronicamente páginas da Web."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
-    "@value" : "endereço eletônico"
+    "@value" : "endereço eletrônico"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
@@ -2869,14 +2840,14 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Esta propriedade conecta um Item com o Manifestação exemplificada por ele."
+    "@value" : "Esta propriedade conecta um Item com a Manifestação exemplificada por ele."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Item"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
-    "@value" : "Indica a relação onde um Item exemplifica ou representa uma Manifestação específica."
+    "@value" : "Indica a relação em que um Item exemplifica ou representa uma Manifestação específica."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -2893,7 +2864,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Indica a fonte de onde o vocabulário controlado ou tesauro foi obtido"
+    "@value" : "Indica a fonte de onde o vocabulário controlado ou tesauro foi obtido."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#AssuntoControlado"
@@ -2956,7 +2927,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Periodicidade da publicação seriada"
+    "@value" : "Periodicidade da publicação seriada."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#PublicacaoSeriada"
@@ -2977,7 +2948,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Localiza uma Biblioteca a um endereço postal ou coordenadas geográficas"
+    "@value" : "Localiza uma Biblioteca a um endereço postal ou coordenadas geográficas."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Biblioteca"
@@ -3025,7 +2996,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Relaciona pelo menos uma biblioteca ou sistema de bibliotecas com obrigatoriamente uma instituição"
+    "@value" : "Relaciona obrigatoriamente pelo menos uma biblioteca a uma instituição."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Biblioteca"
@@ -3056,7 +3027,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
-    "@value" : "Este relacionamento envolve manifestações que efetivamente servem como alternativas umas para as outras"
+    "@value" : "Este relacionamento envolve manifestações que efetivamente servem como alternativas umas para as outras."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -3098,7 +3069,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
-    "@value" : "Este relacionamento vincula qualquer entidade com uma determinada extensão de espaço"
+    "@value" : "Este relacionamento vincula qualquer entidade com uma determinada extensão de espaço."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -3115,7 +3086,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Vincula instancias entre países e cidades."
+    "@value" : "Vincula instâncias entre países e cidades."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Pais"
@@ -3138,13 +3109,13 @@
   "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#hasCollection",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Relacionamento entre coleções e Bibliotecas"
+    "@value" : "Relacionamento entre coleções e bibliotecas."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Biblioteca"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "Propriedade que vincula uma bibliotecas á coleções que ela disponibiliza."
+    "@value" : "Propriedade que vincula uma biblioteca às coleções que ela disponibiliza."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -3168,7 +3139,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
-    "@value" : "Propriedade que vincula obrigatoriamente uma Biblioteca a pelo menos um conjunto de informações contato"
+    "@value" : "Propriedade que vincula obrigatoriamente uma Biblioteca a pelo menos um conjunto de informações contato."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -3209,7 +3180,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Indica a relação onde uma Unidade Federativa possui um país associado a ela."
+    "@value" : "Indica a relação em que uma Unidade Federativa possui um país associado a ela."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#UnidadeFederativa"
@@ -3238,7 +3209,7 @@
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#PublicacaoSeriada"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "Propriedade que vincula uma publicação seriada ao País de publicação"
+    "@value" : "Propriedade que vincula uma publicação seriada ao País de publicação."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -3279,7 +3250,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Indica a relação onde uma Cidade possui uma unidade federativa associada a ela."
+    "@value" : "Indica a relação em que uma Cidade possui uma unidade federativa associada a ela."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Localidade"
@@ -3299,7 +3270,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Indica a relação onde uma entidade possui um termo livre associado a ela."
+    "@value" : "Indica a relação em que uma entidade possui um termo livre associado a ela."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#PublicacaoSeriada"
@@ -3319,7 +3290,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Relaciona cada Publicacao seriada a endereço(s) eletrônico(s)"
+    "@value" : "Relaciona cada publicação seriada a endereço(s) eletrônico(s)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#PublicacaoSeriada"
@@ -3359,7 +3330,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Indica a relação onde uma entidade possui um endereço de instituição associado a ela."
+    "@value" : "Indica a relação em que uma entidade possui um endereço de instituição associado a ela."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Instituicao"
@@ -3379,7 +3350,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Indica a relação onde uma entidade possui uma tabela de área de conhecimento associada a ela."
+    "@value" : "Indica a relação em que uma entidade possui uma tabela de área de conhecimento associada a ela."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#AreaDeConhecimento"
@@ -3399,7 +3370,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Indica a relação onde uma entidade possui um área de conhecimento associado a ela."
+    "@value" : "Indica a relação em que uma entidade possui um área de conhecimento associado a ela."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#PublicacaoSeriada"
@@ -3426,7 +3397,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
-    "@value" : "Esta propriedade conecta uma entidade com o tipo específico de biblioteca ao qual ela pertence, como uma biblioteca setorial, universitária, etc"
+    "@value" : "Esta propriedade conecta uma entidade com o tipo específico de biblioteca ao qual ela pertence, como uma biblioteca setorial, universitária, etc."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -3443,7 +3414,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "propriedade inevrsa da propriedade de objeto \"é membro de\" (isMemberOf)"
+    "@value" : "Propriedade inversa da propriedade de objeto \"é membro de\" (isMemberOf)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#AgenteColetivo"
@@ -3463,7 +3434,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Vincula uma obra incluindo publição seriada  a uma nota ou comentário"
+    "@value" : "Vincula uma obra incluindo publicação seriada  a uma nota ou comentário."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#PublicacaoSeriada"
@@ -3483,7 +3454,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "por exermplo IFLA Cataloguing Section é parte de IFLA."
+    "@value" : "Por exermplo, IFLA Cataloguing Section é parte de IFLA."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#AgenteColetivo"
@@ -3525,7 +3496,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "por exemplo, Califórnia é parte dos Estados Unidos da América (USA)."
+    "@value" : "Por exemplo, a Califórnia é parte dos Estados Unidos da América (USA)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Lugar"
@@ -3546,7 +3517,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Em alguns casos, os componentes de uma manifestação são baseados em considerações físicas relacionadas ao suporte na qual a manifestação deve ser emitida (por exemplo, uma gravação é muito longa para caber em um único disco e é publicada em uma caixa de dois discos). Uma manifestação alternativa em outro suporte pode não exibir os mesmos componentes. \nNo entanto, no caso em que o relacionamento componente-todo é um aspecto inerente das obras, se aplica para todas as expressões e manifestações da obra maior e de suas obras componentes, se a expressão ou manifestação compreende a obra maior ou apenas um ou mais (mas não todas) das obras componentes."
+    "@value" : "Em alguns casos, os componentes de uma manifestação são baseados em considerações físicas relacionadas ao suporte no qual a manifestação deve ser emitida (por exemplo, uma gravação é muito longa para caber em um único disco e é publicada em uma caixa de dois discos). Uma manifestação alternativa em outro suporte pode não exibir os mesmos componentes. \nNo entanto, no caso em que o relacionamento componente-todo é um aspecto inerente das obras, aplica-se para todas as expressões e manifestações da obra maior e de suas obras componentes, se a expressão ou manifestação compreende a obra maior ou apenas um ou mais (mas não todas) das obras componentes."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Manifestacao"
@@ -3609,7 +3580,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Indica a relação onde uma entidade possui um local ou cidade de publicação associado a ela."
+    "@value" : "Indica a relação em que uma entidade possui um local ou cidade de publicação associado a ela."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#PublicacaoImprenta"
@@ -3629,7 +3600,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Vincula obrigatoriamente uma Publicacao seriada a pelo menos uma data de publicação."
+    "@value" : "Vincula obrigatoriamente uma publicação seriada a pelo menos uma data de publicação."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#PublicacaoSeriada"
@@ -3713,7 +3684,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Vincula uma publicação seriada com outra(s) publicações relacionada(s)"
+    "@value" : "Vincula uma publicação seriada a uma publicação relacionada."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#PublicacaoSeriada"
@@ -3754,7 +3725,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "No caso de relacionamento entre item e manifestação, o item específico utilizado como fonte de reprodução é significativo, seja por sua procedência ou devido a características específicas do item, como anotações ou marcas de propriedade"
+    "@value" : "No caso de relacionamento entre item e manifestação, o item específico utilizado como fonte de reprodução é significativo, seja por sua procedência ou devido a características específicas do item, como anotações ou marcas de propriedade."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Item"
@@ -3822,7 +3793,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Indica a relação ondei ua coleção tem  suporte ou meio físico associados a ela."
+    "@value" : "Indica a relação em que coleção tem  suporte ou meio físico associados a ela."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Colecao"
@@ -3842,14 +3813,14 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Titulos diferentes podem agregar valor um ao outro (nesse caso, o relacionamento é simétrico); em outros casos, um dos Tíulos é considerado secundário."
+    "@value" : "Títulos diferentes podem agregar valor um ao outro (nesse caso, o relacionamento é simétrico); em outros casos, um dos Títulos é considerado secundário."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#PublicacaoSeriada"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
-    "@value" : "Este é o relacionamento entre titulos que são independentes, mas que também podem ser utilizadas em conjunto, como complemento ou acompanhamento."
+    "@value" : "Este é o relacionamento entre títulos que são independentes, mas que também podem ser utilizadas em conjunto, como complemento ou acompanhamento."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -3869,7 +3840,7 @@
     "@value" : "Esta propriedade conecta uma entidade com a unidade que ela possui."
   }, {
     "@language" : "pt-br",
-    "@value" : "Relaciona obrigatoriamente uma Biblioteca a no máximo uma Unidade"
+    "@value" : "Relaciona obrigatoriamente uma Biblioteca a no máximo uma Unidade."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Biblioteca"
@@ -3889,7 +3860,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Vincula  publição(ões) Seriada(s) ao(s) Indexador(es)."
+    "@value" : "Vincula publicações seriadas e indexadores."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#PublicacaoSeriada"
@@ -3909,7 +3880,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Indica a relação onde uma entidade é o endereço de outra entidade."
+    "@value" : "Indica a relação em que uma entidade é o endereço de outra entidade."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Endereco"
@@ -3937,7 +3908,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
-    "@value" : "refere-se à relação em que uma categoria de natureza administrativa é atribuída a uma instituição, indicando que a natureza administrativa pertence a essa instituição."
+    "@value" : "Refere-se à relação em que uma categoria de natureza administrativa é atribuída a uma instituição, indicando que a natureza administrativa pertence a essa instituição."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -3951,14 +3922,14 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "propriedade inversa do relacionamento \"possui filiação\" (hasAffiliation)"
+    "@value" : "propriedade inversa do relacionamento \"possui filiação\" (hasAffiliation)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Instituicao"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
-    "@value" : "refere-se à relação em que uma instituição está afiliada a uma biblioteca ou sistema de bibliotecas, indicando que a instituição possui ou mantém essa biblioteca ou sistema de bibliotecas como parte de sua estrutura."
+    "@value" : "Refere-se à relação em que uma instituição está afiliada a uma biblioteca ou sistema de bibliotecas, indicando que a instituição possui ou mantém essa biblioteca ou sistema de bibliotecas como parte de sua estrutura."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4000,7 +3971,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
-    "@value" : "é atribuido por"
+    "@value" : "é atribuído por"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Agente"
@@ -4010,7 +3981,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Indica a relação onde um lugar está associada com outra entidade."
+    "@value" : "Indica a relação em que um lugar está associado a outra entidade."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Lugar"
@@ -4031,13 +4002,13 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Associa uma Unidade com outra(s) Unidade(s)."
+    "@value" : "Associação entre instâncias de uma Unidade."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Unidade"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "Propriedade que faz associaçãoes entre instancias da classe Unidade."
+    "@value" : "Propriedade que faz associações entre instâncias da classe Unidade."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4051,7 +4022,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Indica a relação inversa onde uma cidade está associada a um país específico."
+    "@value" : "Indica a relação inversa em que uma cidade está associada a um país específico."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Localidade"
@@ -4072,7 +4043,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Propriedade que  relaciona uma biblioteca à coleções que ela disponibiliza."
+    "@value" : "Propriedade que relaciona uma biblioteca à coleções que ela disponibiliza."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Colecao"
@@ -4093,7 +4064,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Indica a relação onde uma entidade é o contato de outra entidade."
+    "@value" : "Indica a relação em que uma entidade é o contato de outra entidade."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Contato"
@@ -4142,7 +4113,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
-    "@value" : "Esta propriedade conecta uma entidae com um assunto controlado"
+    "@value" : "Esta propriedade conecta uma entidade com um assunto controlado."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4156,14 +4127,14 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Indica a relação em que um País possui uma Unidade Federativa"
+    "@value" : "Indica a relação em que um país possui uma unidade federativa."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Pais"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
-    "@value" : "Esta propriedade conecta um país específico com um Estado ou UF que ele possui"
+    "@value" : "Esta propriedade conecta um país específico com um Estado ou UF que ele possui."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4177,7 +4148,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Indica a relação onde um país é o local de publicação de uma entidade."
+    "@value" : "Indica a relação em que um país é o local de publicação de uma entidade."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Pais"
@@ -4194,14 +4165,14 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Esta propriedade conecta uma expressão com o Agente que a criou."
+    "@value" : "Esta propriedade conecta uma expressão com o agente que a criou."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Expressao"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt",
-    "@value" : "Indica a relação inversa em que uma expressão foi criada por um Agente"
+    "@value" : "Indica a relação inversa em que uma expressão foi criada por um agente."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4215,7 +4186,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Indica a relação inversa onde uma manifestação foi criada por uma entidade."
+    "@value" : "Indica a relação inversa em que uma manifestação foi criada por uma entidade."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Manifestacao"
@@ -4281,7 +4252,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
-    "@value" : "Este relacionamento indica que em duas expressões da mesma obra, a segunda foi utilizada como fonte para a outra"
+    "@value" : "Este relacionamento indica que em duas expressões da mesma obra, a segunda foi utilizada como fonte para a primeira."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4295,7 +4266,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Um nomen pode ser derivado de outro devido a modificações formais na notação utilizada (como transliteração) ou convenções culturais ou linguísticas (criação de formas abreviadas, reduzidas ou variantes)"
+    "@value" : "Um nomen pode ser derivado de outro devido a modificações formais na notação utilizada (como transliteração) ou convenções culturais ou linguísticas (criação de formas abreviadas, reduzidas ou variantes)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Nomen"
@@ -4306,7 +4277,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
-    "@value" : "Nomem é derivação de"
+    "@value" : "Nomen é derivação de"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Nomen"
@@ -4327,7 +4298,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
-    "@value" : "é distribuida por"
+    "@value" : "é distribuída por"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Agente"
@@ -4379,7 +4350,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Vincula cada Cidade a no maximo uma Unidade Federeativa ou Estado."
+    "@value" : "Vincula cada Cidade a no máximo uma Unidade Federativa ou Estado."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#UnidadeFederativa"
@@ -4413,7 +4384,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Indica a relação que vincula uma página web inicial a uma entidade"
+    "@value" : "Indica a relação que vincula uma página web inicial a uma entidade."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Homepage"
@@ -4447,7 +4418,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "relacionamento  indexador e publicações seriadas"
+    "@value" : "Relacionamento entre indexadores e publicações seriadas."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Referenciador"
@@ -4464,7 +4435,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "por exemplo, o musical West Side Story é inspirado por Romeu e Julieta. A pintura Plan for a City Gate in Kiev, de Viktor Hartmann, é inspiração para a peça musical The Great Gate of Kiev from Pictures at an Exhibition, de Modest Mussorgsky"
+    "@value" : "Por exemplo, o musical West Side Story é inspirado por Romeu e Julieta. A pintura Plan for a City Gate in Kiev, de Viktor Hartmann, é inspiração para a peça musical The Great Gate of Kiev from Pictures at an Exhibition, de Modest Mussorgsky."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Obra"
@@ -4502,7 +4473,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Define uma organizaçao ou categoria para Area(s) de Conhecimento"
+    "@value" : "Define uma organização ou categoria para área(s) de conhecimento."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#TabelaAreaDeConhecimento"
@@ -4536,14 +4507,14 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Indica a relação onde uma entidade é a localidade de outra entidade."
+    "@value" : "Indica a relação em que uma entidade é a localidade (cidade) de um endereço."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Localidade"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
-    "@value" : "Esta propriedade conecta um endereço com a localidade ou ciade específica"
+    "@value" : "Esta propriedade conecta um endereço com a localidade ou cidade específica."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -4560,7 +4531,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Relaciona Endereço(s) a uma Cidade."
+    "@value" : "Relaciona endereço(s) a uma cidade."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Endereco"
@@ -4581,7 +4552,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "A manifestação pode ser fabricada ou produzida por meio de processos industriais ou por meio de métodos artesanais. \n\npor exemplo, a publicação de 2013 da Historical Society of Western Pennsylvania, intitulada The Civil War in Pennsylvania, foi produzida por empresa de impressão denominada Heeter (Canonsburg, Pa.)"
+    "@value" : "A manifestação pode ser fabricada ou produzida por meio de processos industriais ou por meio de métodos artesanais. \n\nPor exemplo, a publicação de 2013 da Historical Society of Western Pennsylvania, intitulada The Civil War in Pennsylvania, foi produzida por uma empresa de impressão denominada Heeter (Canonsburg, Pa.)"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Manifestacao"
@@ -4650,7 +4621,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Os exemplos incluem adicionar anotações, adicionar um ex-libris, remover páginas, reencadernar, restaurar. \n\nPor exemplo, o manuscrito autografado de La nausée, de Jean-Paul Sartre \nfoi modificado por encadernadora Monique Mathieu."
+    "@value" : "Os exemplos incluem adicionar anotações, adicionar um ex-libris, remover páginas, reencadernar, restaurar. \n\nPor exemplo, o manuscrito autografado de La nausée, de Jean-Paul Sartre ,\nfoi modificado pela encadernadora Monique Mathieu."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Item"
@@ -4674,7 +4645,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Indica a relação onde uma entidade é a nota de outra entidade."
+    "@value" : "Indica a relação em que uma entidade é a nota de outra entidade."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Nota"
@@ -4691,18 +4662,18 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "A conexão lógica entre obra e expressão, conforme refletida no modelo por meio desse relacionamento, serve como base tanto para identificar a obra representada por uma expressão individual, como para garantir que todas as expressões de uma obra estejam vinculadas à obra. Indiretamente, as relações entre uma obra e as várias expressões desta obra também servem para estabelecer um relacionamento “de \nparentesco” entre as diferentes expressões da obra. \n\npor exemplo, a obra conhecida como Eine kleine Nachtmusik é realizada através da  notação musical encontrada nas edições de Eine kleine Nachtmusil, de 1989, por Bärenreiter, ISBN 3-370-003301, e por VEB Deutscher Verlag für Musik, ISBN 3-370-00301-5, e na edição sem data de Breitkopf & Härtel, número de chapa 4956."
+    "@value" : "A conexão lógica entre obra e expressão, conforme refletida no modelo por meio desse relacionamento, serve como base tanto para identificar a obra representada por uma expressão individual, como para garantir que todas as expressões de uma obra estejam vinculadas à obra. Indiretamente, as relações entre uma obra e as várias expressões desta obra também servem para estabelecer um relacionamento “de \nparentesco” entre as diferentes expressões da obra. \n\nPor exemplo, a obra conhecida como Eine kleine Nachtmusik é realizada através da  notação musical encontrada nas edições de Eine kleine Nachtmusil, de 1989, por Bärenreiter, ISBN 3-370-003301, e por VEB Deutscher Verlag für Musik, ISBN 3-370-00301-5, e na edição sem data de Breitkopf & Härtel, número de chapa 4956."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Obra"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
-    "@value" : "Este relacionamento vincula uma obra com quaisquer das expressões \nque possuem o mesmo conteúdo intelectual ou artístico."
+    "@value" : "Este relacionamento vincula uma obra com quaisquer das expressões que possuem o mesmo conteúdo intelectual ou artístico."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
-    "@value" : "é realizada atraves de"
+    "@value" : "é realizada através de"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Expressao"
@@ -4715,7 +4686,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Define no máximo um local ou cidade de publicação como parte da Imprenta de qualquer Publicação Seriada."
+    "@value" : "Define no máximo um local ou cidade de publicação como parte da imprenta de qualquer publicação seriada."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Localidade"
@@ -4732,7 +4703,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "A conexão lógica entre um item e um agente relacionado pode servir como base tanto para identificação de um agente que possui ou teve a custódia de um item, quanto para garantir que todos os itens de propriedade ou sob custódia de um determinado agente estejam vinculados a esse agente.\n\npro exemplo, o exemplar com o número de chamada VMA-991 (2,26) da publicação de Bärenreiter, de 1989, contendo um fac-símile do manuscrito autografado de Mozart, da obra conhecida como Eine kleine Nachtmusik, é propriedade de Departamento de \nMúsica da Biblioteca Nacional da França."
+    "@value" : "A conexão lógica entre um item e um agente relacionado pode servir como base tanto para identificação de um agente que possui ou teve a custódia de um item, quanto para garantir que todos os itens de propriedade ou sob custódia de um determinado agente estejam vinculados a esse agente.\n\nPor exemplo, o exemplar com o número de chamada VMA-991 (2,26) da publicação de Bärenreiter, de 1989, contendo um fac-símile do manuscrito autografado de Mozart, da obra conhecida como Eine kleine Nachtmusik, é propriedade de Departamento de \nMúsica da Biblioteca Nacional da França."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Item"
@@ -4773,7 +4744,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Indica a relação onde uma data de publicação está associada a uma entidade específica."
+    "@value" : "Indica a relação em que uma data de publicação está associada a uma entidade específica."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#PublicacaoImprenta"
@@ -4790,7 +4761,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Indica a relação onde um idioma de publicação está associado a uma entidade específica."
+    "@value" : "Indica a relação em que um idioma de publicação está associado a uma entidade específica."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Idioma"
@@ -4807,7 +4778,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Indica a relação onde uma entidade possui uma região associada a ela."
+    "@value" : "Indica a relação em que uma entidade possui uma região associada a ela."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Regiao"
@@ -4824,7 +4795,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Indica a relação onde uma publicação está relacionada com outra publicação."
+    "@value" : "Indica a relação em que uma publicação está relacionada com outra publicação."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#PublicacaoRelacionada"
@@ -4841,7 +4812,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Relacionamento inverso de \"tem reprodução Intem\" Manifestação e Item"
+    "@value" : "Relacionamento inverso de \"Item tem reprodução\". Indica que um item é reproduzido por uma manifestação."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Manifestacao"
@@ -4858,7 +4829,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "propriedade inversa da propriedade de objeto \"poccui como assunto\""
+    "@value" : "Propriedade inversa da propriedade de objeto \"possui como assunto\"."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Res"
@@ -4875,7 +4846,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Propriedade que atribui um tipo de suporte físico a um ISSN"
+    "@value" : "Propriedade que atribui um tipo de suporte físico a um ISSN."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#MeioFisico"
@@ -4892,7 +4863,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Indica a relação inversa que vincula um suporte ou meio físico a uma coleção"
+    "@value" : "Indica a relação inversa que vincula um suporte ou meio físico a uma coleção."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#MeioFisico"
@@ -4909,7 +4880,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "propriedade inversa de \"tem complemento de tíitulo\" (hasTitleComplement)"
+    "@value" : "Propriedade inversa de \"tem complemento de tíitulo\" (hasTitleComplement)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#TituloComplementar"
@@ -4947,7 +4918,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Indica a relação onde uma entidade é uma unidade de outra entidadeuma biblioteca"
+    "@value" : "Indica a relação em que uma entidade é uma unidade de uma biblioteca."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Unidade"
@@ -4989,7 +4960,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Propriedade que categoriza uma Biblioteca filiada a uma Instituição ou integrada a um Sistema de bibliotecas."
+    "@value" : "Propriedade que categoriza uma Biblioteca filiada a uma Instituição ou integrada a um sistema de bibliotecas."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#TipoDeBiblioteca"
@@ -5052,7 +5023,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "relacionamento inverso de \"é abricado por\" (ismanufacturedBy)"
+    "@value" : "Relacionamento inverso de \"foi produzida por\" (ismanufacturedBy)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Agente"
@@ -5069,7 +5040,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Relacionamento inverso da propriedade \"é materializada em\" (isMaterializedIn)"
+    "@value" : "Relacionamento inverso da propriedade \"é materializada em\" (isMaterializedIn)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Manifestacao"
@@ -5121,7 +5092,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Propriedade de objeto inversa da propriedade de objeto \"foi modificado por\" (isModifiedBy)"
+    "@value" : "Propriedade de objeto inversa da propriedade \"foi modificado por\" (isModifiedBy)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Agente"
@@ -5195,7 +5166,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Nível de publicação"
+    "@value" : "Nível de publicação."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#PublicacaoSeriada"
@@ -5381,14 +5352,14 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Número da obra, publicação ou do periódico"
+    "@value" : "Número da obra, publicação ou do periódico."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Obra"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
-    "@value" : "número da obra"
+    "@value" : "número"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#int"
@@ -5401,21 +5372,21 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "URL ou endereço web associado da biblioteca"
+    "@value" : "URL ou endereço Web associado à biblioteca."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Biblioteca"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
-    "@value" : "Esta propriedade descreve o link ou o endereço de uma página web que está associado a uma biblioteca. É essencial para fornecer acesso direto a informações adicionais, recursos online ou referências relevantes ao conteúdo da biblioteca."
+    "@value" : "Esta propriedade descreve o link ou o endereço de uma página Web associada à biblioteca. Fornece acesso direto a informações adicionais, recursos online ou referências relevantes ao conteúdo da biblioteca."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
-    "@value" : "página web"
+    "@value" : "página Web"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
   } ]
 }, {
   "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#performs",
@@ -5471,7 +5442,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
-    "@value" : "Este é o relacionamento de duas obras, em que o conteúdo da segunda é uma continuação lógica da primeira"
+    "@value" : "Este é o relacionamento de duas obras, em que o conteúdo da segunda é uma continuação lógica da primeira."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -5499,7 +5470,7 @@
     "@value" : "contato principal"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
   } ]
 }, {
   "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#publicacaoRelacionada_1",
@@ -5537,7 +5508,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Define Editora(s) como parte da Imprenta de uma Publicação Seriada"
+    "@value" : "Define uma editora como parte da imprenta de uma publicação seriada."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Editora"
@@ -5615,14 +5586,14 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Categoriza tipo de ligacao de outras publicações relacionadas a publicação seriada principal"
+    "@value" : "Categoriza tipo de ligação de outras publicações relacionadas a publicação seriada principal."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#PublicacaoSeriada"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
-    "@value" : "Esta propriedade descreve a categoria de ligação entre a publicação seriada principal e outras publicações relacionadas. É essencial para identificar e classificar as diferentes formas de interconexão e referências entre as publicações, proporcionando uma visão clara das relações dentro do acervo."
+    "@value" : "Esta propriedade indica a categoria de ligação entre a publicação seriada principal e outras publicações relacionadas. Identifica e classifica as diferentes formas de interconexão e referências entre as publicações, oferecendo uma visão clara das relações dentro do acervo."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -5636,14 +5607,14 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Nome do responsável intelectual da Publicação seriada"
+    "@value" : "Nome do responsável intelectual de uma obra."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#PublicacaoSeriada"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
-    "@value" : "Esta propriedade descreve o nome do indivíduo ou organização responsável pelo conteúdo intelectual e pela criação da publicação seriada. É essencial para identificar a pessoa que fornece a orientação intelectual e criativa para a publicação. Como autor, editor e tradutor, por exemplo."
+    "@value" : "Esta propriedade indica o nome do indivíduo ou da organização responsável pelo conteúdo intelectual e pela criação da obra. Identifica a pessoa que fornece a orientação intelectual e criativa para a publicação, como autor, editor ou tradutor, por exemplo."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -5664,7 +5635,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
-    "@value" : "Esta propriedade descreve um serviço específico que é oferecido pela biblioteca. É essencial para identificar e detalhar os diferentes serviços disponíveis aos usuários da biblioteca, proporcionando uma melhor compreensão dos recursos e suporte oferecidos"
+    "@value" : "Esta propriedade descreve um serviço específico que é oferecido pela biblioteca. É essencial para identificar e detalhar os diferentes serviços disponíveis aos usuários da biblioteca, proporcionando uma melhor compreensão dos recursos e suporte oferecidos."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -5685,7 +5656,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
-    "@value" : "Esta propriedade descreve os serviços bibliográficos específicos que são gerenciados pelo IBICT (Instituto Brasileiro de Informação em Ciência e Tecnologia). Fazem parte destes serviços: O Catálogo Coletivo Nacional de Publicaões seriadas (CCN), o`Programa de comutação bibliográfica (Comut) e a rede Bibliodata."
+    "@value" : "Esta propriedade descreve os serviços bibliográficos específicos gerenciados pelo IBICT (Instituto Brasileiro de Informação em Ciência e Tecnologia). Entre esses serviços estão o Catálogo Coletivo Nacional de Publicações Seriadas (CCN), o Programa de Comutação Bibliográfica (Comut) e a Rede Bibliodata."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -5699,14 +5670,14 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Abreviação ou palavra formada pelas iniciais de qualquer instância"
+    "@value" : "Abreviação ou palavra formada pelas iniciais de qualquer instância."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Res"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
-    "@value" : "Esta propriedade descreve uma abreviação ou palavra que é formada pelas iniciais de qualquer intancias de qualquer classe. É essencial para representar de forma concisa e reconhecível informações complexas através de abreviações."
+    "@value" : "Esta propriedade descreve uma abreviação ou palavra formada pelas iniciais de instâncias de qualquer classe. Representa, de forma concisa e reconhecível, informações complexas, como a sigla da biblioteca, do idioma, da instituição ou da unidade."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -5720,14 +5691,14 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Situação atual da publicação seriada: corrente (ativa) ou descontinuada (encerrada)"
+    "@value" : "Situação atual da publicação seriada."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#PublicacaoSeriada"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
-    "@value" : "Esta propriedade descreve a situação atual de uma publicação seriada, indicando se está em andamento (ativa) ou se foi descontinuada (encerrada). É essencial para identificar o status da publicação e seu ciclo de vida"
+    "@value" : "Esta propriedade descreve a situação atual de uma publicação seriada, indicando se está ativa (corrente), suspensa ou descontinuada (encerrada). Define o status da publicação e seu ciclo de vida."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -5741,14 +5712,14 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Categoriza por nome o software utlizado para implementação de bibliotecas ou repositórios digitais"
+    "@value" : "Categoriza por nome o software utilizado para implementação de bibliotecas ou repositórios digitais."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Biblioteca"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
-    "@value" : "Esta propriedade descreve o nome do software que foi utilizado para a implementação de bibliotecas ou repositórios digitais. É essencial para identificar e categorizar os diferentes softwares empregados, fornecendo uma visão clara das tecnologias utilizadas na gestão e operação desses sistemas."
+    "@value" : "Esta propriedade descreve o nome do software utilizado na implementação de bibliotecas ou repositórios digitais. Identifica e categoriza os diferentes softwares empregados, oferece uma visão clara das tecnologias aplicadas na gestão e operação desses sistemas."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -5769,7 +5740,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
-    "@value" : "Esta propriedade descreve a situação atual de um registro, indicando qualquer alteração feita, como atualizações de dados. É essencial para monitorar e acompanhar modificações no registro, garantindo que todas as mudanças sejam registradas e acessíveis."
+    "@value" : "Esta propriedade descreve a situação atual de um registro, indicando qualquer alteração realizada, como atualizações de dados. Permite o monitoramento, o acompanhamento das modificações e assegura que todas as mudanças fiquem registradas e acessíveis."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -5819,7 +5790,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Número de telefone fixo do contato principal da Biblioteca"
+    "@value" : "Número de telefone fixo do contato principal da Biblioteca."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Contato"
@@ -5840,7 +5811,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Número de telefone móvel ouc elular do contato principal da Biblioteca"
+    "@value" : "Número de telefone móvel ou celular do contato principal da Biblioteca."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Contato"
@@ -5890,7 +5861,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
-    "@value" : "tipo de publicação."
+    "@value" : "tipologia documental"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -5928,14 +5899,14 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Tipo material da obra. Tipifica se o registroé bibliográfico ou de autoridade."
+    "@value" : "Tipo material da obra."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#PublicacaoSeriada"
+    "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Obra"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
-    "@value" : "Esta propriedade descreve se o registro é de natureza bibliográfica ou de autoridade. É essencial para categorizar e distinguir os diferentes tipos de registros dentro de uma base de dados ou sistema de catalogação.\n\nEsta propriedade descreve se o tipo de material da obra, se o registro é de natureza bibliográfica ou de autoridade. É essencial para categorizar e distinguir os diferentes tipos de registros e materiais dentro de uma base de dados ou sistema de catalogação"
+    "@value" : "Esta propriedade descreve o tipo de material da obra. Por exemplo: Material textual impresseo, Música impressa ou Cartográfico."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -5977,7 +5948,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "pt-br",
-    "@value" : "Esta propriedade descreve o título principal da obra. É essencial para a identificação e referência do documento dentro de um acervo ou sistema de catalogação."
+    "@value" : "Esta propriedade descreve o título principal da obra, sendo utilizada para a identificação e referência do documento dentro de um acervo ou sistema de catalogação."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
@@ -5991,7 +5962,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Uma URL, a abreviação de Uniform Resource Locator  ou localizador uniforme de recursos é um endereço da Web que aponta para um site específico, uma página da Web."
+    "@value" : "Uma URL, abreviação de Uniform Resource Locator (localizador uniforme de recursos), é um endereço da Web que aponta para um site ou uma página específica."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Biblioteca"
@@ -6012,14 +5983,14 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "pt-br",
-    "@value" : "Volume da publicação seriada ou do peródico"
+    "@value" : "Designação numérica que descreve o valor do volume de uma obra."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://pinakes.prd.ibict.br/ontology/pinakes#Obra"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "pt-br",
-    "@value" : "volume da obra"
+    "@value" : "volume"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#int"
